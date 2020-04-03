@@ -1,0 +1,72 @@
+body{
+  font-family: "Verdana";
+  background: linear-gradient(to top, #ff0000 20% , #000000 90%);
+  background-attachment: fixed;
+  color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+  color: #1B96BD;
+  height: 500;
+}
+
+#container{
+  margin: 0 10% 0 10%;
+}
+
+.cabecalho{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  font-size: 40px;
+  position: relative;
+}
+
+.cabecalho li{
+    display: inline;
+}
+
+ul{
+  list-style: none;
+  display: inline;
+  padding: 0 5px 0 5px;
+}
+
+li hover{
+  transition: ease-in 3s ease;
+}
+
+.ryan{
+  display: inline-block;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 5px #000000;
+  padding: 5px 5px 150px 5px;
+  position: relative;
+}
+
+.tres{
+  display: inline-block;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 5px #000000;
+  padding: 5px 5px 150px 5px;
+  position: relative;
+}
+
+.cartaz{
+  display: inline-block;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 5px #000000;
+  padding: 5px 5px 150px 5px;
+  position: relative;
+
+}
+
+figcaption{
+  position: absolute;
+}
+
+.rodape{
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
