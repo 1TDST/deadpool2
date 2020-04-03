@@ -1,11 +1,11 @@
 @font-face {
   font-family: comics;
-  src: url('/fonts/comics.ttf');
+  src: url('../fonts/comics.ttf');
 }
 
 @font-face {
   font-family: title;
-  src: url('/fonts/title.ttf');
+  src: url('../fonts/title.ttf');
 }
 
 *{
