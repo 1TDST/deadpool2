@@ -1,0 +1,114 @@
+@font-face {
+  font-family: comics;
+  src: url('../fonts/comics.ttf');
+}
+
+@font-face {
+  font-family: title;
+  src: url('../fonts/title.ttf');
+}
+
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin:0;
+  padding:0;
+
+}
+
+:root{
+  --color-h-f:black;
+}
+
+body{
+  background:
+   linear-gradient(180deg,rgb(255, 30, 30), rgb(12, 1, 1),rgb(12, 1, 1)),
+   url(../img/wallpaper.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: screen, difference, lighten;
+  color:white;
+}
+
+.e-container{
+  margin: 0 10%;
+}
+
+.e-container .e-header{
+  font-family: title;
+  padding: 40px;
+  font-size: 40px;
+  position: relative;
+  background-color: var(--color-h-f);
+}
+
+.e-container .e-header ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.e-container .e-header ul li{
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.e-container .e-header ul li:hover{
+  color:red;
+}
+
+.e-container .e-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: comics;
+}
+
+.e-container .e-main figure{
+  border: 3px double black;
+  border-radius: 5px;
+  position: relative;
+  padding:20px 20px 190px;
+  margin: 30px 0;
+}
+
+.e-container .e-main figure img{
+  border-radius: 8px;
+}
+
+.e-container .e-main figure figcaption{
+  padding: 10px 5px;
+  position: absolute;
+  text-shadow: 2px 2px 1px black;
+}
+
+.e-container .e-main figure figcaption .e-name{
+  font-weight: 600;
+}
+
+.e-footer{
+  padding:50px;
+  font-size: 20px;
+  background-color: var(--color-h-f);
+}
+
+.e-footer__content .e-imdb a{
+  font-family: title;
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.e-footer__content .e-credits{
+  font-family: comics;
+  padding-bottom: 60px;
+}
+
+.e-footer__content figure img{
+  width: 50px;
+  float: right;
+  margin-top: -35px;
+}
