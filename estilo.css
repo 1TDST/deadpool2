@@ -1,8 +1,3 @@
-/*
-Pacheco, legal, gostei de tudo.
-Mas cadê a estrutura de pastas?
-*/
-
 body{
   font-family: 'Verdana';
   background-image: linear-gradient(0deg, #ff0000 20% , #000000 90%);
@@ -29,6 +24,10 @@ a{
 .menu-horizontal li{
   display: inline;
   padding: 0 5px 0 5px;
+}
+
+.menu-horizontal{
+  hover: transition;
 }
 
 .corpo figure{
