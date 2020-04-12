@@ -1,0 +1,52 @@
+body{
+  font-family: "Verdana", "Times New Roman";
+  background: linear-gradient(0deg, #ff0000 20%, #000000 90%);
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+a{
+  text-decoration: none;
+  color: #1B96BD;
+  font-weight: 500;
+}
+
+#container{
+  margin: 0 10% 0 10%;
+}
+
+.cabeçalho{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3.0872058%;
+  font-size: 40px;
+  position: relative;
+}
+
+.menu li{
+  padding: 0, 5px, 0, 5px;
+  display: inline;
+}
+
+.corpo figure{
+  display: inline-block;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 5px #000000;
+  padding: 5px 5px 150px 5px;
+  position: relative;
+}
+
+.corpo figcaption{
+  position: absolute;
+  font-weight: 600;
+}
+
+.rodape{
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+
+.menu:HOVER{
+  transition: 0.5s;
+  cursor: pointer;
+}
