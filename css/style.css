@@ -20,22 +20,31 @@ body {
 
 .cabecalho {
   background-color:  rgba(0,0,0, 0.5);
-  padding: 40px;
+  padding: 10px;
   font-size: 40px;
   position: relative;
+  width: 900px;
 }
 
 .cabecalho li {
   text-decoration: none;
   display: inline;
   padding: 0px  5px 0px 5px;
+
 }
+
+.corpo {
+  width: 1000px;
+  margin: auto;
+}
+
 .corpo figure {
-  display: inline-block;
+  display:inline-block;
   border: 2px;
   border-style: solid;
+  border-color: black;
   box-shadow: 2px 2px 5px;
-  padding: 5px 5px 100px 5px;
+  padding: 5px 5px 130px 5px;
   position: relative;
 }
 
@@ -46,5 +55,5 @@ body {
 .rodape {
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 30px
+  font-size: 20px
   }
