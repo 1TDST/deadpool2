@@ -29,6 +29,9 @@ a{
   text-decoration: none;
   color: #1B96BD;
   font-weight: 500;
+  background-color: none;
+  transition: background-color 2s;
+  border-radius: 5px;
 }
 /* Para a <div> que envolve todos os elementos determine os seguintes estilos:
 | Margens superior 0, direita 10%, inferior 0 e esquerda 10%.
@@ -72,9 +75,28 @@ a{
   padding: 5px 5px 150px 5px;
   position: relative;
 }
-/**/
-/**/
-/**/
+/*Para o elemento responsável pelas legendas determine os seguintes estilos:
+| Posição absoluta.
+*/
+.corpo figure figcaption{
+  position: absolute;
+}
+/*Para a classe rodape determine os seguintes estilos:
+| Espaçamento interno 50px.
+| Cor de fundo com transparência de 0.5 preta.
+| Tamanho do texto em 30px;*/
+.rodape{
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+/*Crie um efeito hover sobre os itens da lista,
+ fazendo com que a cor de fundo e a cor do texto se alternem de forma suave.(Transition)
+*/
+a:HOVER{
+  background-color: #c1b337;
+}
+
 /**/
 /**/
 /**/
