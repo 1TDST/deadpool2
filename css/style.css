@@ -17,6 +17,9 @@ a {
   color: #1B96BD;
   font-weight: 500;
   text-decoration: none;
+  background-color: none;
+  transition: background-color 2s;
+  border-radius: 10px;
 }
 
 #container {
@@ -36,9 +39,8 @@ a {
   padding: 0 5px 0 5px;
 }
 
-.menu:hover{
-  transition: 0.2s;
-  cursor: pointer;
+a:HOVER {
+  background-color: #cd2424;
 }
 
 .corpo figure {
