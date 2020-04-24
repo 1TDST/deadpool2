@@ -6,6 +6,70 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Verdana", sans-serif;
+    background-image: linear-gradient(0deg, #ff0000 20%, #000000 90%);
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #ffffff;
+}
 
 
 
+
+.container{
+    margin: 0 10%;
+}
+
+.cabecalho{
+    background-color: rgba(0,0,0, 0.0);
+    padding: 40px;
+    font-size: 40px;
+    position: relative;
+    margin-left: 22%;
+}
+
+a{
+    text-decoration: none;
+    color: #1B96BD;
+    font-weight: 500;
+    background-color: none;
+    transition:background-color 1s;
+}
+
+.cabecalho ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 5px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.cabecalho a:hover{
+    background-color: #1B96BD;
+    color:#fff;
+}
+
+.corpo{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.corpo figure{
+    display: inline-block;
+    border: 2px solid #000000;
+    box-shadow:  2px 2px 5px #000000;
+    padding: 5px 5px 150px 5px;
+    position: relative;
+}
+
+.corpo figure figcaption{
+    position: absolute;
+}
+
+.rodape{
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    margin-top: 7.5%;
+}
