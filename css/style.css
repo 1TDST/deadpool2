@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+/*******este css acima reseta o html********/
+body{
+    background-image: linear-gradient(#000000, #ff0000);
+}
+
+#container{
+  width:1200px;
+  margin:0 auto;
+}
+#cabecalho{
+  /*este css abaixo é a largura do elemento*/
+  width:100%;
+  /*este css abaixo é a altura do elemento*/
+  height:140px;
+  background: #000000;
+  opacity: 0.5;
+}
+
+#cabecalho p{
+  /*troca a cor do elemento*/
+  color:#1dabff;
+  /* coloca o tamanho da FONTE*/
+  font-size: 32px;
+  font-family: Arial;
+  height:140px;
+  /*alinhar a altura do espaço */
+  line-height: 140px;
+  margin-left: 30px;
+}
+
+div#meio {
+    float: left;
+    width: 100%;
+}
+#meio ul li {
+  /*alinha elemento como bloco,para alinhar lado a lado*/
+  display: inline-block;
+  float:left;
+  padding:4px 4px 4px 4px;
+  border:1px solid #000;
+  height:450px;
+  margin:15px 40px 15px 35px;
+  box-shadow: 1px 1px 6px 1px #000;
+}
+#meio ul li:hover{
+  cursor: pointer;
+  background:red;
+  transition: 0.5s;
+}
+#meio ul li:hover p{
+  color:#5f5fb9;
+}
+#meio ul li p{
+  color:#ffffff;
+  font-weight: 600;
+  padding-top:9px;
+}
+.imgmenor{
+  width:214px;
+}
+#imgmaior{
+  width:468px;
+}
+
+#rodape{
+  background:#000000;
+  opacity: 0.5;
+  width: 100%;
+  height: 190px;
+  float: left;
+}
+
+#rodape p{
+    padding:44px 0 0 30px;
+    color:#ffffff;
+    font-size:25px;
+    font-family: Arial;
+}
+
+#rodape p #textoAzul{
+  color: #00e7ff;
+}
